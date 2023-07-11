@@ -5,9 +5,10 @@ dirs = [
     os.path.join("data", "raw"),
     os.path.join("data", "processed"),
     "notebooks",
-    "saved_modes",
+    "saved_models",
     "src",
     "data_given",
+    "report",
 ]
 
 for dir_ in dirs:
@@ -23,6 +24,9 @@ files = [
     os.path.join("src", "get_data.py"),
     os.path.join("src", "load_data.py"),
     os.path.join("src", "split_data.py"),
+    os.path.join("src", "train_and_evaluate.py"),
+    os.path.join("report", "scores.json"),
+    os.path.join("report", "params.json"),
 ]
 
 for file_ in files:

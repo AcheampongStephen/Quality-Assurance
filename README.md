@@ -38,3 +38,8 @@
 - git remote add origin https://github.com/AcheampongStephen/Quality-Assurance.git
 - git branch -M main
 - git push -u origin main
+
+10. Get and load the data
+11. Reproduce the stage using DVC
+
+- dvc repro
